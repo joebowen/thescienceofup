@@ -1124,4 +1124,50 @@ footer span.glyphicon.glyphicon-chevron-up {
 }
 }
 
+.js .gallery {
+	width: 100%;
+	max-width: 700px;
+	margin: 0 auto;
+	border-radius: 20px;
+	position: relative;
+	background: #000 url(../images/black_denim.png);
+	box-shadow: 0 2px 1px rgba(255,255,255,0.9), 0 -2px 1px rgba(255,255,255,0.9);
+}
 
+.lt-ie8 .elastislide-list {
+	display: none;
+}
+
+.elastislide-horizontal {
+	background-color: transparent;
+	border-radius: 0 0 20px 20px;
+}
+
+.elastislide-horizontal.elastislide-loading {
+	background-image: url(../images/loading_dark.gif);
+}
+
+.elastislide-carousel ul li a{
+	padding: 2px;
+}
+
+.elastislide-carousel ul li a img {
+	border-radius: 10px;
+	border: none;
+	box-shadow: 0 1px 2px #000;
+}
+
+.elastislide-wrapper nav span {
+	background-color: #666;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,0.2);
+}
+
+.image-preview img {
+	border-radius: 20px 20px 0 0;
+	max-width: 100%;
+	display: block;
+}
+
+.elastislide-carousel ul li.current-img a img {
+	box-shadow: 0 0 3px 2px rgba(62,235,255,0.8);
+}
