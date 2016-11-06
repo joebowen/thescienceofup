@@ -1,0 +1,29 @@
+{
+  "name": "thescienceofup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.7"
+  },
+  "devDependencies": {
+    "event-stream": "^3.3.4",
+    "gulp": "^3.9.1",
+    "gulp-responsive": "^2.6.0",
+    "gulp-util": "^3.0.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joebowen/thescienceofup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joebowen/thescienceofup/issues"
+  },
+  "homepage": "https://github.com/joebowen/thescienceofup#readme"
+}
