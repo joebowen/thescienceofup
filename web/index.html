@@ -305,6 +305,26 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- Events Gallery -->
 <div class="myeventsgallery" id="eventsgallery">
     <h3 class="text-center slideanim">Events Gallery</h3>
+        <div class="text-center" id="12-4-16-crash">
+        <p><strong>12-4-16 CRASH Launch</strong></p>
+        <div class="gallery">
+            <div class="image-preview">
+                <img id="preview6" src="images/events/12-4-16-CRASH/1.jpg" />
+            </div>
+            <ul id="carousel6" class="elastislide-list">
+            </ul>
+        </div>
+    </div>
+    <div class="text-center" id="11-6-16-crash">
+        <p><strong>11-6-16 CRASH Launch</strong></p>
+        <div class="gallery">
+            <div class="image-preview">
+                <img id="preview5" src="images/events/11-6-16-CRASH/1.jpg" />
+            </div>
+            <ul id="carousel5" class="elastislide-list">
+            </ul>
+        </div>
+    </div>
     <div class="text-center" id="10-15-16-crash">
         <p><strong>10-15-16 CRASH Launch</strong></p>
         <div class="gallery">
@@ -487,6 +507,64 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         $carouselItems4.removeClass( 'current-img' );
         el.addClass( 'current-img' );
         carousel4.setCurrent( pos );
+    }
+</script>
+<script type="text/javascript">
+    var current5 = 0,
+    $preview5 = $( '#preview5' ),
+    $carouselEl5 = $( '#carousel5' ),
+    $carouselItems5 = $carouselEl5.children();
+
+    for (i = 1; i <= 90; i++) {
+        $carouselEl5.append('<li data-preview="images/events/11-6-16-CRASH/' + i + '.jpg"><a href="#11-6-16-crash"><img src="images/events/11-6-16-CRASH/' + i + '-thumbnail.jpg" alt="image' + i + '" /></a></li>');
+    }
+
+    var carousel5 = $carouselEl5.elastislide( {
+        current : current5,
+        minItems : 4,
+        onClick : function( el, pos, evt ) {
+            changeImage5( el, pos );
+            evt.preventDefault();
+        },
+        onReady : function() {
+            changeImage5( $carouselItems5.eq( current5 ), current5 );
+        }
+    } );
+
+    function changeImage5( el, pos ) {
+        $preview5.attr( 'src', el.data( 'preview' ) );
+        $carouselItems5.removeClass( 'current-img' );
+        el.addClass( 'current-img' );
+        carousel5.setCurrent( pos );
+    }
+</script>
+<script type="text/javascript">
+    var current6 = 0,
+    $preview6 = $( '#preview6' ),
+    $carouselEl6 = $( '#carousel6' ),
+    $carouselItems6 = $carouselEl6.children();
+
+    for (i = 1; i <= 82; i++) {
+        $carouselEl6.append('<li data-preview="images/events/12-4-16-CRASH/' + i + '.jpg"><a href="#12-4-16-crash"><img src="images/events/12-4-16-CRASH/' + i + '-thumbnail.jpg" alt="image' + i + '" /></a></li>');
+    }
+
+    var carousel6 = $carouselEl6.elastislide( {
+        current : current6,
+        minItems : 4,
+        onClick : function( el, pos, evt ) {
+            changeImage6( el, pos );
+            evt.preventDefault();
+        },
+        onReady : function() {
+            changeImage6( $carouselItems6.eq( current6 ), current6 );
+        }
+    } );
+
+    function changeImage6( el, pos ) {
+        $preview6.attr( 'src', el.data( 'preview' ) );
+        $carouselItems6.removeClass( 'current-img' );
+        el.addClass( 'current-img' );
+        carousel6.setCurrent( pos );
     }
 </script>
 <!-- js files for banner slider -->
