@@ -17,18 +17,20 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
     <link href="css/cobox.css" rel="stylesheet" type="text/css">
     <link href="css/portfolio.css" rel="stylesheet" type="text/css" media="all">
-    <link rel="stylesheet" type="text/css" href="css/elastislide.css" media="all"/>
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="css/site_specific.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"/>
     <!-- /css files -->
     <!-- font links -->
-    <link href='//fonts.googleapis.com/css?family=Quicksand:400,700,300' rel='stylesheet' type='text/css'>
-    <link href='//fonts.googleapis.com/css?family=Cinzel:400,700,900' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Quicksand:400,700,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Cinzel:400,700,900' rel='stylesheet' type='text/css'>
     <!-- /font links -->
     <!-- js files -->
     <script src="js/modernizr.custom.js"></script>
     <!-- /js files -->
 </head>
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<body id="top" data-spy="scroll" data-target=".navbar" data-offset="60">
 <div class="navbar-wrapper">
     <div class="container">
         <nav class="navbar navbar-inverse navbar-static-top">
@@ -305,64 +307,53 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!-- Events Gallery -->
 <div class="myeventsgallery" id="eventsgallery">
     <h3 class="text-center slideanim">Events Gallery</h3>
-        <div class="text-center" id="12-4-16-crash">
+    <div class="text-center" id="1-8-17-crash">
+        <p><strong>1-8-17 CRASH Launch</strong></p>
+        <div class="gallery">
+            <div class="gallery7-main gallery-main"></div>
+            <div class="gallery7-slide gallery-slide"></div>
+        </div>
+    </div>
+    <div class="text-center" id="12-4-16-crash">
         <p><strong>12-4-16 CRASH Launch</strong></p>
         <div class="gallery">
-            <div class="image-preview">
-                <img id="preview6" src="images/events/12-4-16-CRASH/1.jpg" />
-            </div>
-            <ul id="carousel6" class="elastislide-list">
-            </ul>
+            <div class="gallery6-main gallery-main"></div>
+            <div class="gallery6-slide gallery-slide"></div>
         </div>
     </div>
     <div class="text-center" id="11-6-16-crash">
         <p><strong>11-6-16 CRASH Launch</strong></p>
         <div class="gallery">
-            <div class="image-preview">
-                <img id="preview5" src="images/events/11-6-16-CRASH/1.jpg" />
-            </div>
-            <ul id="carousel5" class="elastislide-list">
-            </ul>
+            <div class="gallery5-main gallery-main"></div>
+            <div class="gallery5-slide gallery-slide"></div>
         </div>
     </div>
     <div class="text-center" id="10-15-16-crash">
         <p><strong>10-15-16 CRASH Launch</strong></p>
         <div class="gallery">
-            <div class="image-preview">
-                <img id="preview4" src="images/events/10-15-16-CRASH/1.jpg" />
-            </div>
-            <ul id="carousel4" class="elastislide-list">
-            </ul>
+            <div class="gallery4-main gallery-main"></div>
+            <div class="gallery4-slide gallery-slide"></div>
         </div>
     </div>
     <div class="text-center" id="10-2-16-crash">
         <p><strong>10-2-16 CRASH Launch</strong></p>
         <div class="gallery">
-            <div class="image-preview">
-                <img id="preview3" src="images/events/10-2-16-CRASH/1.jpg" />
-            </div>
-            <ul id="carousel3" class="elastislide-list">
-            </ul>
+            <div class="gallery3-main gallery-main"></div>
+            <div class="gallery3-slide gallery-slide"></div>
         </div>
     </div>
     <div class="text-center" id="stemExpo">
         <p><strong>STEM Expo at Ben Franklin Academy</strong></p>
         <div class="gallery">
-            <div class="image-preview">
-                <img id="preview1" src="images/events/STEM-Ben-Academy/1.jpg" />
-            </div>
-            <ul id="carousel1" class="elastislide-list">
-            </ul>
+            <div class="gallery1-main gallery-main"></div>
+            <div class="gallery1-slide gallery-slide"></div>
         </div>
     </div>
     <div class="text-center" id="9-17-16-crash">
         <p><strong>9-17-16 CRASH Launch</strong></p>
         <div class="gallery">
-            <div class="image-preview">
-                <img id="preview2" src="images/events/9-17-16-CRASH/1.jpg" />
-            </div>
-            <ul id="carousel2" class="elastislide-list">
-            </ul>
+            <div class="gallery2-main gallery-main"></div>
+            <div class="gallery2-slide gallery-slide"></div>
         </div>
     </div>
 </div>
@@ -383,189 +374,88 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                     Content: © 2016 The Science of Up. All Rights Reserved | Design by Joe Bowen
                 </p>
             </div>
-            <a href="#myPage" title="To Top"><span class="glyphicon glyphicon-chevron-up"></span></a>
+            <a href="#top" title="To Top"><span class="glyphicon glyphicon-chevron-up"></span></a>
         </footer>
     </div>
 </div>
 <!-- /footer -->
 <!-- js files -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
 
-<script type="text/javascript" src="js/jquery.elastislide.js"></script>
 <script type="text/javascript">
-    var current1 = 0,
-    $preview1 = $( '#preview1' ),
-    $carouselEl1 = $( '#carousel1' ),
-    $carouselItems1 = $carouselEl1.children();
+    $(document).ready(function(){
+        var gallery_settings = [
+            {
+                'main': '.gallery7-main',
+                'slide': '.gallery7-slide',
+                'dir': '1-8-17-CRASH',
+                'count': 41
+            },
+            {
+                'main': '.gallery6-main',
+                'slide': '.gallery6-slide',
+                'dir': '12-4-16-CRASH',
+                'count': 82
+            },
+            {
+                'main': '.gallery5-main',
+                'slide': '.gallery5-slide',
+                'dir': '11-6-16-CRASH',
+                'count': 90
+            },
+            {
+                'main': '.gallery4-main',
+                'slide': '.gallery4-slide',
+                'dir': '10-15-16-CRASH',
+                'count': 44
+            },
+            {
+                'main': '.gallery3-main',
+                'slide': '.gallery3-slide',
+                'dir': '10-2-16-CRASH',
+                'count': 30
+            },
+            {
+                'main': '.gallery2-main',
+                'slide': '.gallery2-slide',
+                'dir': '9-17-16-CRASH',
+                'count': 21
+            },
+            {
+                'main': '.gallery1-main',
+                'slide': '.gallery1-slide',
+                'dir': 'STEM-Ben-Academy',
+                'count': 4
+            }
+        ];
 
-    for (i = 1; i <= 4; i++) {
-        $carouselEl1.append('<li data-preview="images/events/STEM-Ben-Academy/' + i + '.jpg"><a href="#stemExpo"><img src="images/events/STEM-Ben-Academy/' + i + '-thumbnail.jpg" alt="image' + i + '" /></a></li>');
-    }
+        gallery_settings.forEach(function(obj) {
+            $(obj.main).slick({
+              slidesToShow: 1,
+              slidesToScroll: 1,
+              arrows: false,
+              variableWidth: true,
+              asNavFor: obj.slide,
+              lazyLoad: 'ondemand'
+            });
+            $(obj.slide).slick({
+              slidesToShow: 10,
+              slidesToScroll: 1,
+              asNavFor: obj.main,
+              centerMode: true,
+              arrows: true,
+              focusOnSelect: true,
+              variableWidth: true
+            });
 
-    var carousel1 = $carouselEl1.elastislide( {
-        current : current1,
-        minItems : 4,
-        onClick : function( el, pos, evt ) {
-            changeImage1( el, pos );
-            evt.preventDefault();
-        },
-        onReady : function() {
-            changeImage1( $carouselItems1.eq( current1 ), current1 );
-        }
-    } );
-
-    function changeImage1( el, pos ) {
-        $preview1.attr( 'src', el.data( 'preview' ) );
-        $carouselItems1.removeClass( 'current-img' );
-        el.addClass( 'current-img' );
-        carousel1.setCurrent( pos );
-    }
-</script>
-<script type="text/javascript">
-    var current2 = 0,
-    $preview2 = $( '#preview2' ),
-    $carouselEl2 = $( '#carousel2' ),
-    $carouselItems2 = $carouselEl2.children();
-
-    for (i = 1; i <= 21; i++) {
-        $carouselEl2.append('<li data-preview="images/events/9-17-16-CRASH/' + i + '.jpg"><a href="#9-17-16-crash"><img src="images/events/9-17-16-CRASH/' + i + '-thumbnail.jpg" alt="image' + i + '" /></a></li>');
-    }
-
-    var carousel2 = $carouselEl2.elastislide( {
-        current : current2,
-        minItems : 4,
-        onClick : function( el, pos, evt ) {
-            changeImage2( el, pos );
-            evt.preventDefault();
-        },
-        onReady : function() {
-            changeImage2( $carouselItems2.eq( current2 ), current2 );
-        }
-    } );
-
-    function changeImage2( el, pos ) {
-        $preview2.attr( 'src', el.data( 'preview' ) );
-        $carouselItems2.removeClass( 'current-img' );
-        el.addClass( 'current-img' );
-        carousel2.setCurrent( pos );
-    }
-</script>
-<script type="text/javascript">
-    var current3 = 0,
-    $preview3 = $( '#preview3' ),
-    $carouselEl3 = $( '#carousel3' ),
-    $carouselItems3 = $carouselEl3.children();
-
-    for (i = 1; i <= 60; i++) {
-        $carouselEl3.append('<li data-preview="images/events/10-2-16-CRASH/' + i + '.jpg"><a href="#10-2-16-crash"><img src="images/events/10-2-16-CRASH/' + i + '-thumbnail.jpg" alt="image' + i + '" /></a></li>');
-    }
-
-    var carousel3 = $carouselEl3.elastislide( {
-        current : current3,
-        minItems : 4,
-        onClick : function( el, pos, evt ) {
-            changeImage3( el, pos );
-            evt.preventDefault();
-        },
-        onReady : function() {
-            changeImage3( $carouselItems3.eq( current3 ), current3 );
-        }
-    } );
-
-    function changeImage3( el, pos ) {
-        $preview3.attr( 'src', el.data( 'preview' ) );
-        $carouselItems3.removeClass( 'current-img' );
-        el.addClass( 'current-img' );
-        carousel3.setCurrent( pos );
-    }
-</script>
-<script type="text/javascript">
-    var current4 = 0,
-    $preview4 = $( '#preview4' ),
-    $carouselEl4 = $( '#carousel4' ),
-    $carouselItems4 = $carouselEl4.children();
-
-    for (i = 1; i <= 44; i++) {
-        $carouselEl4.append('<li data-preview="images/events/10-15-16-CRASH/' + i + '.jpg"><a href="#10-15-16-crash"><img src="images/events/10-15-16-CRASH/' + i + '-thumbnail.jpg" alt="image' + i + '" /></a></li>');
-    }
-
-    var carousel4 = $carouselEl4.elastislide( {
-        current : current4,
-        minItems : 4,
-        onClick : function( el, pos, evt ) {
-            changeImage4( el, pos );
-            evt.preventDefault();
-        },
-        onReady : function() {
-            changeImage4( $carouselItems4.eq( current4 ), current4 );
-        }
-    } );
-
-    function changeImage4( el, pos ) {
-        $preview4.attr( 'src', el.data( 'preview' ) );
-        $carouselItems4.removeClass( 'current-img' );
-        el.addClass( 'current-img' );
-        carousel4.setCurrent( pos );
-    }
-</script>
-<script type="text/javascript">
-    var current5 = 0,
-    $preview5 = $( '#preview5' ),
-    $carouselEl5 = $( '#carousel5' ),
-    $carouselItems5 = $carouselEl5.children();
-
-    for (i = 1; i <= 90; i++) {
-        $carouselEl5.append('<li data-preview="images/events/11-6-16-CRASH/' + i + '.jpg"><a href="#11-6-16-crash"><img src="images/events/11-6-16-CRASH/' + i + '-thumbnail.jpg" alt="image' + i + '" /></a></li>');
-    }
-
-    var carousel5 = $carouselEl5.elastislide( {
-        current : current5,
-        minItems : 4,
-        onClick : function( el, pos, evt ) {
-            changeImage5( el, pos );
-            evt.preventDefault();
-        },
-        onReady : function() {
-            changeImage5( $carouselItems5.eq( current5 ), current5 );
-        }
-    } );
-
-    function changeImage5( el, pos ) {
-        $preview5.attr( 'src', el.data( 'preview' ) );
-        $carouselItems5.removeClass( 'current-img' );
-        el.addClass( 'current-img' );
-        carousel5.setCurrent( pos );
-    }
-</script>
-<script type="text/javascript">
-    var current6 = 0,
-    $preview6 = $( '#preview6' ),
-    $carouselEl6 = $( '#carousel6' ),
-    $carouselItems6 = $carouselEl6.children();
-
-    for (i = 1; i <= 82; i++) {
-        $carouselEl6.append('<li data-preview="images/events/12-4-16-CRASH/' + i + '.jpg"><a href="#12-4-16-crash"><img src="images/events/12-4-16-CRASH/' + i + '-thumbnail.jpg" alt="image' + i + '" /></a></li>');
-    }
-
-    var carousel6 = $carouselEl6.elastislide( {
-        current : current6,
-        minItems : 4,
-        onClick : function( el, pos, evt ) {
-            changeImage6( el, pos );
-            evt.preventDefault();
-        },
-        onReady : function() {
-            changeImage6( $carouselItems6.eq( current6 ), current6 );
-        }
-    } );
-
-    function changeImage6( el, pos ) {
-        $preview6.attr( 'src', el.data( 'preview' ) );
-        $carouselItems6.removeClass( 'current-img' );
-        el.addClass( 'current-img' );
-        carousel6.setCurrent( pos );
-    }
+            for (i = 1; i <= obj.count; i++) {
+                $(obj.main).slick('slickAdd','<img src="images/events/' + obj.dir + '/' + i + '.jpg" alt="image' + i + '" />');
+                $(obj.slide).slick('slickAdd','<img src="images/events/' + obj.dir + '/' + i + '-thumbnail.jpg" alt="image' + i + '" />');
+            }
+        });
+    });
 </script>
 <!-- js files for banner slider -->
 <script src="js/responsiveslides.min.js"></script>

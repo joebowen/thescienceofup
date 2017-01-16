@@ -1,0 +1,33 @@
+.gallery-main img {
+	border-radius: 20px;
+}
+
+.gallery-slide {
+    padding: 10px 40px;
+	border-radius: 20px;
+	height: 127px;
+}
+
+.gallery-slide img {
+    padding: 3px;
+	border-radius: 10px;
+	height: 104px;
+}
+
+gallery {
+	width: 100%;
+	max-width: 1000px;
+	margin: 0 auto;
+	border-radius: 20px;
+	position: relative;
+	background: #000 url(../images/black_denim.png);
+	box-shadow: 0 2px 1px rgba(255,255,255,0.9), 0 -2px 1px rgba(255,255,255,0.9);
+}
+
+.gallery .slick-prev:before {
+    color: black
+}
+
+.gallery .slick-next:before {
+    color: black
+}
