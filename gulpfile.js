@@ -4,6 +4,28 @@ var es = require('event-stream');
 
 gulp.task('default', function () {
   return es.concat(
+    gulp.src('src-images/events/5-29-17-NSL/*.jpg')
+		.pipe(responsive({
+		  '*.jpg': {
+		    width: 1100,
+		    height: 733,
+		    max: true,
+		    rotate: true,
+		  },
+		  '*': {
+		    width: 160,
+		    height: 107,
+		    max: true,
+		    rotate: true,
+		    rename: { suffix: '-thumbnail' },
+		  },
+		}, {
+		  quality: 95,
+		  progressive: true,
+		  withMetadata: false,
+		  errorOnEnlargement: false,
+		}))
+		.pipe(gulp.dest('web/images/events/5-29-17-NSL')),
     gulp.src('src-images/events/4-23-17-HARTSEL/*.jpg')
 		.pipe(responsive({
 		  '*.jpg': {
@@ -20,7 +42,7 @@ gulp.task('default', function () {
 		    rename: { suffix: '-thumbnail' },
 		  },
 		}, {
-		  quality: 70,
+		  quality: 95,
 		  progressive: true,
 		  withMetadata: false,
 		}))

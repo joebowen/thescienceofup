@@ -3,20 +3,18 @@
 }
 
 .gallery-slide {
-    padding: 10px 40px;
+  padding: 10px 40px;
 	border-radius: 20px;
 	height: 127px;
 }
 
 .gallery-slide img {
-    padding: 3px;
+  padding: 3px;
 	border-radius: 10px;
 	height: 104px;
 }
 
 gallery {
-	width: 100%;
-	max-width: 1000px;
 	margin: 0 auto;
 	border-radius: 20px;
 	position: relative;
